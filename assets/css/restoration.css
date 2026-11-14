@@ -1,0 +1,22 @@
+/* Small repairs for the longer recovered biography. */
+#main > .panel.intro { height: auto; min-height: 25em; }
+#main > .panel.intro header { width: calc(100% - 17em); padding: 2.5em; }
+#main > .panel.intro header h1 { font-size: 2em; }
+#main > .panel.intro header h3 { font-size: 1.1em; margin-top: .8em; }
+#main > .panel.intro header h4 { font-size: .95em; margin-top: .3em; }
+#main > .panel.intro header p { font-size: 1em; line-height: 1.6; margin-top: 1.2em; }
+#main > .panel.intro .pic { background: #596971; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+.portrait-placeholder { color: #fff; font-size: 1em; }
+.draft-note { padding: .8em 1em; background: #f4f0e9; color: #655b4c; font-size: .9em; }
+fieldset:disabled { opacity: .55; }
+@media screen and (max-width: 980px) {
+ #main > .panel.intro header { width: 100%; padding: 2.5em; }
+ #main > .panel.intro .pic { height: 16em; }
+}
+@media screen and (max-width: 736px) {
+ #main > .panel.intro header { padding: 1.6em; }
+ #main > .panel.intro header h1 { font-size: 1.7em; }
+ #nav a { font-size: 1.5em; margin: 0 .22em; }
+}
+
+@media screen and (min-width: 981px) { #main > .panel.intro .pic { height: auto; align-self: stretch; } }
